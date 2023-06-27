@@ -1,0 +1,8 @@
+.text {
+  font-size: 16px;
+  line-height: 18px;
+  color: blue;
+  display: flex; //测一下自动前缀
+  user-select: all; //测一下自动前缀
+  overflow-wrap: break-word; //测一下postcss-preset-env state:2/stage:3 的区别，这是一个stage2的提案
+}

@@ -1,0 +1,7 @@
+.text {
+  font-size: 16px;
+  line-height: 18px;
+  color: blue;
+  display: flex; //测一下自动前缀
+  user-select: all; //测一下自动前缀
+}

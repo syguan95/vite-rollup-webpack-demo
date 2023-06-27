@@ -1,0 +1,7 @@
+/rollup-demo/es
+/rollup-demo/node_modules
+/webpack-demo/dist
+/webpack-demo/node_modules
+/vite-react-demo/dist
+/vite-react-demo/node_modules
+.DS_Store

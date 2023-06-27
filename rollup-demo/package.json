@@ -1,0 +1,47 @@
+{
+  "name": "rollup-demo",
+  "version": "1.0.0",
+  "description": "a rollup configuration demo",
+  "main": "./es",
+  "module": "./es",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config rollup.config.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/plugin-transform-runtime": "^7.21.4",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-react": "^7.22.3",
+    "@rollup/plugin-alias": "^5.0.0",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-html": "^1.0.2",
+    "@rollup/plugin-image": "^3.0.2",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-replace": "^5.0.2",
+    "@rollup/plugin-strip": "^3.0.2",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-url": "^8.0.1",
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.24",
+    "rollup": "^3.22.0",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-serve": "^2.0.2",
+    "sass": "^1.62.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.22.3",
+    "@babel/runtime-corejs3": "^7.22.3",
+    "core-js": "^3.30.2",
+    "lodash-es": "^4.17.21"
+  },
+  "browserslist": "defaults"
+}
